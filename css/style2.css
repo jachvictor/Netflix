@@ -228,8 +228,30 @@ body {
 }
 
 .wrap5 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 1445px;
+  height: 248px;
+  left: 60px;
+  top: 1987px;
 }
 .r5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 5px;
+
+  width: 1445px;
+  height: 205px;
 }
 .wrap6 {
 }
