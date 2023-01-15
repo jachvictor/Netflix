@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
