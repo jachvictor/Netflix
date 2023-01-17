@@ -8,8 +8,30 @@ body {
   align-content: center;
   justify-items: center;
 }
+.nav1 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 25px 60px;
+  gap: 530px;
+
+  position: absolute;
+  width: 1440px;
+  height: 82px;
+  left: 0px;
+  top: 0px;
+
+  /* Black */
+
+  background: #141414;
+  /* background-color: red; */
+  margin-top: -2.5cm;
+}
 .backg {
-  /* position: absolute; */
+  position: absolute;
   width: 1440px;
   /* height: 12cm; */
   left: 0px;
@@ -35,7 +57,7 @@ body {
 .contain {
   position: relative;
   width: 1505px;
-  height: 2723px;
+  height: 70cm;
   left: 0px;
   top: 82px;
   background-color: black;
@@ -254,10 +276,172 @@ body {
   height: 205px;
 }
 .wrap6 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 1735px;
+  height: 214px;
+  left: -115px;
+  top: 2265px;
 }
 .r6 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+
+  width: 1735px;
+  height: 171px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .wrap7 {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 1445px;
+  height: 214px;
+  left: 60px;
+  top: 2509px;
 }
 .r7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+
+  width: 1445px;
+  height: 171px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.head3 {
+  width: 146px;
+  height: 33px;
+
+  /* Netflix Sans - Medium - 26px */
+
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 33px;
+
+  /* SmokeWhite */
+
+  color: #e5e5e5;
+  margin-left: 5.7cm;
+}
+.con {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 50px;
+
+  width: 542px;
+  height: 30px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 2cm;
+}
+.logo {
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 381px;
+  height: 18px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.t1 {
+}
+.t2 {
+}
+.t3 {
+}
+.t4 {
+}
+.t5 {
+}
+.fun {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+
+  width: 248px;
+  height: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  /* flex-grow: ; */
+  margin-left: -3cm;
+}
+.last {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 278.5px;
+  gap: 20px;
+
+  position: absolute;
+  width: 1440px;
+  height: 288px;
+  left: 0px;
+  top: 2835px;
+
+  /* Black */
+
+  background: #141414;
 }
